@@ -1,51 +1,48 @@
 [
   {
-    "repository": "kernel_redmi_rosemary",
-    "target_path": "kernel/redmi/rosemary"
+    "repository": "android_kernel_redmi_rosemary",
+    "target_path": "kernel/redmi/rosemary",
+    "remote": "pixelbuilds-devices"
   },
   {
-    "repository": "vendor_redmi_rosemary",
+    "repository": "vendor-blobs/android_vendor_redmi_rosemary",
     "target_path": "vendor/redmi/rosemary",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "vendor_redmi_rosemary-firmware",
+    "repository": "vendor-blobs/android_vendor_redmi_rosemary-firmware",
     "target_path": "vendor/redmi/rosemary-firmware",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "vendor_mediatek-opensource",
+    "repository": "vendor-blobs/android_vendor_mediatek_opensource",
     "target_path": "vendor/mediatek/opensource",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "vendor_mediatek_interfaces",
+    "repository": "vendor-blobs/android_vendor_mediatek_interfaces",
     "target_path": "vendor/mediatek/interfaces",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "device_mediatek_common",
+    "repository": "device-trees/android_device_mediatek_common",
     "target_path": "device/mediatek/common",
-    "branch": "thirteen",
-    "remote": "pixel-devices-blobs"
+    "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "PixelExperience/device_mediatek_sepolicy_vndr",
+    "repository": "android_device_mediatek_sepolicy_vndr",
     "target_path": "device/mediatek/sepolicy_vndr",
-    "branch": "thirteen"
+    "remote": "pixelbuilds-staging"
   },
   {
-    "repository": "PixelExperience/hardware_xiaomi",
+    "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch": "thirteen"
+    "remote": "pixelbuilds-staging"
   },
   {
     "repository": "ProjectKasumi/vendor_gcgop",
     "target_path": "vendor/gcgop",
-    "branch": "kasumi-v2"
+    "branch": "kasumi-v2",
+    "remote": "github"
   }
 ]
