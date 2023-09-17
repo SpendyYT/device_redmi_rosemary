@@ -32,4 +32,5 @@ The Redmi Note 10s (codenamed _"rosemary"_) is a high-end, mid-range smartphone 
 * [@J6idot](https://github.com/J6idot)
 * [@myst33d](https://github.com/notmyst33d)
 * [@windowz414](https://github.com/windowz414)
+* [@SpendyYT](https://github.com/SpendyYT)
 * Aylin, and many more who helped with the development for Redmi Note 10S
