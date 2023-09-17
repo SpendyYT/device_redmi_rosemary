@@ -1020,6 +1020,10 @@ on boot
     chown system system /sys/bus/platform/devices/aw8622/pwm_ctrl
     chown system system /sys/bus/platform/devices/aw8622/test_cnt
 
+    # DT2W
+    chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
+
 on property:vold.decrypt=trigger_reset_main
     write /proc/bootprof "INIT:vold.decrypt=trigger_reset_main"
     setprop sys.boot_completed 0
@@ -1144,10 +1148,3 @@ service mi_thermald /system/vendor/bin/mi_thermald
 # add this link for cust mount
 on init
     symlink /dev/block/platform/bootdevice /dev/block/bootdevice
-
-on property:persist.sys.rosemary.dt2w=0
-    exec /system/bin/sendevent /dev/input/event2 0 1 4
-
-on property:persist.sys.rosemary.dt2w=1
-    exec /system/bin/sendevent /dev/input/event2 0 1 5
-

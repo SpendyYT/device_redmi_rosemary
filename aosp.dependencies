@@ -35,6 +35,11 @@
     "remote": "pixelbuilds-staging"
   },
   {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek",
+    "remote": "pixelbuilds-staging"
+  },
+  {
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "pixelbuilds-staging"
