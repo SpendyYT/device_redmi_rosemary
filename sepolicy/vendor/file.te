@@ -11,3 +11,6 @@ type vendor_fp_data_file, file_type, data_file_type;
 
 # IR
 type lirc_device, dev_type;
+
+# Touchpanel
+type sysfs_touchpanel, sysfs_type, fs_type;
