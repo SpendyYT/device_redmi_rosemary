@@ -317,10 +317,6 @@ PRODUCT_COPY_FILES += \
     $(foreach file,$(wildcard $(DEVICE_PATH)/configs/media/*), \
         $(file):$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/, $(notdir $(file))) )
 
-PRODUCT_COPY_FILES += \
-    $(foreach xml, google_audio, \
-        frameworks/av/media/libstagefright/data/media_codecs_$(xml).xml:$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/, media_codecs_$(xml).xml))
-
 # MLIPay
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mlipay@1.0.vendor \
@@ -492,6 +488,11 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0.vendor \
     vendor.mediatek.hardware.netdagent@1.0.vendor
 
+# Seccomp
+PRODUCT_COPY_FILES += \
+    $(foreach file,$(wildcard $(DEVICE_PATH)/configs/seccomp/*), \
+        $(file):$(addprefix $(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/, $(notdir $(file))) )
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
@@ -530,6 +531,9 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 32
+
+PRODUCT_PACKAGES += \
+    libui-v32
 
 # VNDService
 PRODUCT_PACKAGES += \
