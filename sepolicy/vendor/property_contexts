@@ -24,6 +24,7 @@ vendor.mtkcam. u:object_r:vendor_mtkcam_prop:s0
 persist.vendor.camera.                     u:object_r:mtk_camera_prop:s0
 vendor.camera.boost.en         u:object_r:mtk_camera_prop:s0
 vendor.debug.appcontrol.name        u:object_r:mtk_camera_prop:s0
+vendor.camera.sensor.                      u:object_r:vendor_camera_sensor_prop:s0
 
 # Thermal properties
 vendor.sys.thermal. u:object_r:thermal_engine_prop:s0
