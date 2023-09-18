@@ -152,7 +152,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := f2fs
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/11007000.i2c0/i2c-0/0-0038/fts_gesture_mode"
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/props/product.prop
