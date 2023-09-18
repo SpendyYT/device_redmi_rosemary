@@ -1526,7 +1526,6 @@ vendor/lib/libMtkOmxApeDec.so
 vendor/lib/libMtkOmxCore.so
 vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
-vendor/lib/libMtkOmxVdecEx.so
 vendor/lib/libMtkOmxVenc.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libOpenCL.so
@@ -2609,14 +2608,14 @@ vendor/lib64/egl/libMEOW_trace.so|fd857c813ec06b5a62e3ff16d959d789bf7d41c9
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so|20290857ee049b423dd1a8e493bf85a8653c4fea
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so|54b3be407037e4ac1f64c51ba4d0b96aba75d393
 
-# Kernel Power Off Charging (KPOC) - from Project Kasumi v1 build
+# Kernel Power Off Charging (KPOC) - from MIUI 12.5.16.0.RKLMIXM
 bin/kpoc_charger|4f687f205f04ee0ad02a5dcf10e5d21125e62646
 etc/init/kpoc_charger.rc|78e5ceefcbd35490f3959853a07bb3eb6c99f616
 lib/libshowlogo.so|4adbe3d352b08ba078e6be8b9bf93e7d62ef406b
 lib/libsysenv_system.so|23264918218eff8b88b18603cce96e021ce50f93
 lib64/libsysenv_system.so|92b261121259794d53aefed8dabed2eb6f25038e
 
-# MTK-IMS - from Project Kasumi v1 build
+# MTK-IMS - from MIUI 12.5.16.0.RKLMIXM
 bin/vtservice|aa7eaa951940ed33c80a0df6db30cb92be673c0c
 etc/init/init.vtservice.rc|abcbc3ffc316b8f1cedffa949aac3b46670d64bc
 -framework/mediatek-common.jar|a3531483206741e2a8d7a2756c65224e3b1aa517
@@ -2648,9 +2647,10 @@ lib64/libmtkperf_client.so|395e4da19bac624e4c04fd6302941464d1a56b9a
 lib64/libvcodec_cap.so|71d3741396fa7d73ed4d042c56deba860e3476f5
 lib64/libvcodec_capenc.so|01b8c4b442d0928c99529f0b76e38782e866980b
 
-# MTK-IMS - from V12.5.16.0.RKLMIXM (patched)
+# MTK-IMS - from MIUI 12.5.16.0.RKLMIXM (patched)
 -priv-app/ImsService/ImsService.apk|6e7a50492767fe281c3293229001413ee1a31eaa
 
-# Media (OMX) - from Project Kasumi v1 build
+# Media (OMX) - from MIUI 12.5.16.0.RKLMIXM (patched)
 vendor/bin/hw/android.hardware.media.omx@1.0-service|0d53f4462ce63112821512b84994a6acab1e4cf6
 vendor/etc/init/android.hardware.media.omx@1.0-service.rc|1f23dc2b84896fc0d1fc875e87dc2e5250053b29
+vendor/lib/libMtkOmxVdecEx.so|c1c45ff4fbadf12b71f9ceb63e16e1362e431b2f
