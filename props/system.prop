@@ -1,7 +1,3 @@
-# Audio
-audio.deep_buffer.media=false
-ro.config.vc_call_vol_steps=7
-
 # Camera
 ro.camera.highres.packagelist=org.lineageos.snap,com.google.android.apps.cameralite
 
