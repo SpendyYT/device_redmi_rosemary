@@ -48,11 +48,5 @@
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "pixelbuilds-staging"
-  },
-  {
-    "repository": "ProjectKasumi/vendor_gcgop",
-    "target_path": "vendor/gcgop",
-    "branch": "kasumi-v2",
-    "remote": "github"
   }
 ]
