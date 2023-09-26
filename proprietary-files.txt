@@ -202,7 +202,6 @@ vendor/lib64/libmtkutils.so
 vendor/lib64/libratconfig.so
 vendor/lib64/librilfusion.so
 vendor/lib64/libsysenv.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 
 # Secure element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
@@ -238,10 +237,8 @@ vendor/lib64/libvowp2training_alexa.vendor.so
 # Thermal
 vendor/bin/hw/android.hardware.thermal@2.0-service.mtk
 vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6785.so
-vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib64/hw/thermal.mt6785.so
 
@@ -863,7 +860,6 @@ vendor/etc/security/cacerts_supl/c542733d.0
 vendor/etc/security/cacerts_supl/f336e3d1.0
 vendor/etc/smartpa_param/AW_DSP.bin
 -vendor/etc/vintf/manifest/android.hardware.gpu@1.0-service.xml
--vendor/etc/vintf/manifest/power-default.xml
 -vendor/etc/vintf/manifest/vendor.mediatek.hardware.dplanner@2.0-service.xml
 vendor/etc/102_SummerDay.png
 vendor/etc/103_Fantasy.png
@@ -1728,7 +1724,6 @@ vendor/lib/ov64b40semco_mipi_raw_IdxMgr.so
 vendor/lib/ov64b40semco_mipi_raw_india_IdxMgr.so
 vendor/lib/ov64b40semco_mipi_raw_india_tuning.so
 vendor/lib/ov64b40semco_mipi_raw_tuning.so
-vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib64/hw/dfps.mt6785.so
 vendor/lib64/hw/gps.default.so
@@ -1754,7 +1749,6 @@ vendor/lib64/APUWareUtilsServer.so
 vendor/lib64/APUWareXrpServer.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/VP9SecureVdecCA.so
-vendor/lib64/android.hidl.allocator@1.0.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
 vendor/lib64/gc02m1bsunny_mipi_mono_IdxMgr.so
 vendor/lib64/gc02m1bsunny_mipi_mono_india_IdxMgr.so
@@ -2543,7 +2537,6 @@ vendor/lib64/ov64b40semco_mipi_raw_tuning.so
 vendor/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
 vendor/lib64/vendor.microtrust.hardware.soter@1.0.so
-vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 -vendor/odm/etc/vintf/manifest_dsds.xml
 -vendor/odm/etc/vintf/manifest_dsds_se.xml
 -vendor/odm/etc/vintf/manifest_qsqs.xml
@@ -2650,6 +2643,4 @@ lib64/libvcodec_capenc.so|01b8c4b442d0928c99529f0b76e38782e866980b
 -priv-app/ImsService/ImsService.apk|6e7a50492767fe281c3293229001413ee1a31eaa
 
 # Media (OMX) - from MIUI 12.5.16.0.RKLMIXM (patched)
-vendor/bin/hw/android.hardware.media.omx@1.0-service|0d53f4462ce63112821512b84994a6acab1e4cf6
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc|1f23dc2b84896fc0d1fc875e87dc2e5250053b29
 vendor/lib/libMtkOmxVdecEx.so|c1c45ff4fbadf12b71f9ceb63e16e1362e431b2f
