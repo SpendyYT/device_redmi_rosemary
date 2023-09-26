@@ -87,7 +87,8 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session \
     libldacBT_enc \
     libldacBT_abr \
-    vendor.mediatek.hardware.audio@6.1.vendor
+    vendor.mediatek.hardware.audio@6.1.vendor \
+    vendor.mediatek.hardware.bluetooth.audio@2.1.vendor
 
 PRODUCT_PACKAGES += \
     MtkInCallService
@@ -305,6 +306,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service.vendor \
     libmedia_codeclist \
     libstagefright_codecbase \
     libstagefright_bufferpool@2.0.1 \
@@ -456,6 +458,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.6.vendor
 
+# Radio
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkradioex@2.0.vendor
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.ago.rc \
@@ -520,6 +526,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0.vendor \
     android.hardware.thermal@2.0.vendor
 
 # USB
