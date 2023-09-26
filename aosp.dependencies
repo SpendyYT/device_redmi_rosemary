@@ -15,6 +15,11 @@
     "remote": "pixelbuilds-gitlab"
   },
   {
+    "repository": "vendor-blobs/android_vendor_redmi_rosemary-miuicamera",
+    "target_path": "vendor/redmi/rosemary-miuicamera",
+    "remote": "pixelbuilds-gitlab"
+  },
+  {
     "repository": "vendor-blobs/android_vendor_mediatek_opensource",
     "target_path": "vendor/mediatek/opensource",
     "remote": "pixelbuilds-gitlab"

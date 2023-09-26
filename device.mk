@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/redmi/rosemary/rosemary-vendor.mk)
-
+$(call inherit-product-if-exists, vendor/redmi/rosemary-miuicamera/miuicamera.mk)
 $(call inherit-product, vendor/mediatek/opensource/mtk-builds.mk)
 
 # Setup dalvik vm configs
