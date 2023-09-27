@@ -458,10 +458,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.6.vendor
 
-# Radio
-PRODUCT_PACKAGES += \
-    vendor.mediatek.hardware.mtkradioex@2.0.vendor
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.ago.rc \
