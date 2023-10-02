@@ -15,11 +15,6 @@
     "remote": "pixelbuilds-gitlab"
   },
   {
-    "repository": "vendor-blobs/android_vendor_redmi_rosemary-miuicamera",
-    "target_path": "vendor/redmi/rosemary-miuicamera",
-    "remote": "pixelbuilds-gitlab"
-  },
-  {
     "repository": "vendor-blobs/android_vendor_mediatek_opensource",
     "target_path": "vendor/mediatek/opensource",
     "remote": "pixelbuilds-gitlab"
@@ -48,5 +43,11 @@
     "repository": "android_hardware_xiaomi",
     "target_path": "hardware/xiaomi",
     "remote": "pixelbuilds-staging"
+  },
+  {
+    "repository": "ProjectKasumi/vendor_gcgop",
+    "target_path": "vendor/gcgop",
+    "branch": "kasumi-v2",
+    "remote": "github"
   }
 ]
