@@ -50,3 +50,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := Redmi/rosemary_global/rosemary:12/SP1A.210812.016/V13.0.8.0.SKLMIXM:user/release-keys
 
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
