@@ -2644,4 +2644,6 @@ lib64/libvcodec_capenc.so|01b8c4b442d0928c99529f0b76e38782e866980b
 -priv-app/ImsService/ImsService.apk|6e7a50492767fe281c3293229001413ee1a31eaa
 
 # Media (OMX) - from MIUI 12.5.16.0.RKLMIXM (patched)
+vendor/bin/hw/android.hardware.media.omx@1.0-service|0d53f4462ce63112821512b84994a6acab1e4cf6 
 vendor/lib/libMtkOmxVdecEx.so|c1c45ff4fbadf12b71f9ceb63e16e1362e431b2f
+vendor/etc/init/android.hardware.media.omx@1.0-service.rc|1f23dc2b84896fc0d1fc875e87dc2e5250053b29
