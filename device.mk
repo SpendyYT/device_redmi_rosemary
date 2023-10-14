@@ -64,13 +64,12 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio@5.0.vendor \
-    android.hardware.audio@7.0.vendor \
-    android.hardware.audio@7.0-impl \
     android.hardware.bluetooth.audio-impl \
     android.hardware.broadcastradio@1.0.vendor \
     android.hardware.broadcastradio@1.1.vendor \
     android.hardware.broadcastradio@2.0.vendor \
     android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth@1.1.vendor \
     audio.primary.default \
     audio.r_submix.default \
     audio_policy.stub \
@@ -233,7 +232,6 @@ PRODUCT_PACKAGES += \
 
 # HIDL and HW binder
 PRODUCT_PACKAGES += \
-    android.hidl.allocator@1.0.vendor \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -306,7 +304,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.omx@1.0-service.vendor \
     libmedia_codeclist \
     libstagefright_codecbase \
     libstagefright_bufferpool@2.0.1 \
@@ -369,7 +366,7 @@ PRODUCT_PACKAGES += \
     WifiOverlayRosemary
 
 DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-pb
+    $(DEVICE_PATH)/overlay-evolution
 
 # Overridden props
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
@@ -439,6 +436,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_rosemary/android.hardware.nfc.xml \
     frameworks/native/data/etc/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/sku_rosemary/android.hardware.se.omapi.uicc.xml
 
+# Xiaomi Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts 
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
@@ -464,6 +465,7 @@ PRODUCT_PACKAGES += \
     init.mt6785.rc \
     init.sensor_1_0.rc \
     fstab.mt6785 \
+    fstab.enableswap \
     init.connectivity.rc \
     init.mt6785.usb.rc \
     init.project.rc \
@@ -511,7 +513,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # SoundTrigger
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.0-impl \
     android.hardware.soundtrigger@2.3-impl
 
 # Symbols
@@ -535,7 +536,10 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 32
 
+# VNDK
 PRODUCT_PACKAGES += \
+    libutils-v32 \
+    libhidlbase-v32 \
     libui-v32
 
 # VNDService
